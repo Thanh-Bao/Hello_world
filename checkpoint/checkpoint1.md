@@ -371,16 +371,31 @@ console.log(arr1);
 
 Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 
-**Câu 13**:
+**Câu 13.1**:
 
 ```javascript
-const a = 1;
+let a = 1;
 
 function func(a) {
   a = 2;
 }
 
 func(a);
+console.log(a);
+```
+
+Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+
+**Câu 13.2**:
+
+```javascript
+let a = 1;
+
+function func() {
+  a = 2;
+}
+
+func();
 console.log(a);
 ```
 
@@ -405,7 +420,7 @@ Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 **Câu 15:**
 
 ```javascript
-const a = [1, 2, 3];
+let a = [1, 2, 3];
 
 function func(a) {
   a = [4, 5, 6];
