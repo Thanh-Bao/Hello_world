@@ -89,10 +89,10 @@ _Client (frontend) expect:_
 
 ```json
 {
-	studentID: 122,
-	weight: 65,
-	height: 150
-},
+  "studentID": 122,
+  "weight": 65,
+  "height": 150
+}
 ```
 
 **Câu 4**:
