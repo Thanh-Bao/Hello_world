@@ -348,9 +348,9 @@ _Client (frontend) expect:_
 
 **Câu 11:**
 
-```json
-let  arr1 = [1, 2, 3];
-let  arr2 = arr1;
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
 
 arr2[0] = 0;
 console.log(arr1);
@@ -360,9 +360,9 @@ Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 
 **Câu 12**:
 
-```json
-let  arr1 = [1, 2, 3];
-let  arr2 = arr1;
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = arr1;
 
 arr2 = [4, 5, 6];
 
@@ -373,12 +373,12 @@ Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 
 **Câu 13**:
 
-```json
-const  a = 1;
+```javascript
+const a = 1;
 
-function  func(a) {
-a = 2;
-};
+function func(a) {
+  a = 2;
+}
 
 func(a);
 console.log(a);
@@ -388,16 +388,16 @@ Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 
 **Câu 14:**
 
-```json
-	const  a = [1, 2, 3];
+```javascript
+const a = [1, 2, 3];
 
-	function  func(a) {
-		a = [4, 5, 6];
-	};
+function func(a) {
+  a = [4, 5, 6];
+}
 
-	func(a);
+func(a);
 
-	console.log(a);
+console.log(a);
 ```
 
 Không chạy thử! Đoạn code trên in ra gì? Tại sao?
