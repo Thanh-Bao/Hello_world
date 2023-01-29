@@ -229,7 +229,7 @@ và
 ]
 ```
 
-- Server 1 (đặt ở Nhật) response :
+- Server 2 (đặt ở Nhật) response :
 
 ```json
 [
