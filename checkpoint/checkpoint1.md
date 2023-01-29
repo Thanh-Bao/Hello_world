@@ -392,6 +392,22 @@ Không chạy thử! Đoạn code trên in ra gì? Tại sao?
 const a = [1, 2, 3];
 
 function func(a) {
+  a[0] = 0;
+}
+
+func(a);
+
+console.log(a);
+```
+
+Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+
+**Câu 15:**
+
+```javascript
+const a = [1, 2, 3];
+
+function func(a) {
   a = [4, 5, 6];
 }
 
