@@ -1,3 +1,14 @@
+# Best app for self learning
+
+ 1. [exercism.org](https://exercism.org/tracks/javascript/concepts)
+ 2. [Learn Javascript](https://play.google.com/store/apps/details?id=js.javascript.web.coding.programming.learn.development)
+ 3. [Learn Coding/Programming: Mimo](https://play.google.com/store/apps/details?id=com.getmimo) (frontend + backend)
+ 4. [sololearn](https://play.google.com/store/apps/details?id=com.sololearn)
+ _______________
+ 5. [codecombat.com](https://codecombat.com/play/dungeon)  (learn OOP if you want).
+ 6. [Programming Hero: Coding Fun](https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp) (Learn [ReactJS](https://reactjs.org/) if you want).
+
+
 # Phần 1: Thao tác mảng (Array Built-in Methods)
 
 > Chuẩn bị:
