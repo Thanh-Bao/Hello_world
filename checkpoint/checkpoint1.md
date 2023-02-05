@@ -368,7 +368,7 @@ arr2[0] = 0;
 console.log(arr1);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 **Câu 12**:
 
@@ -381,7 +381,7 @@ arr2 = [4, 5, 6];
 console.log(arr1);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 **Câu 13.1**:
 
@@ -396,7 +396,7 @@ func(a);
 console.log(a);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 **Câu 13.2**:
 
@@ -411,7 +411,7 @@ func();
 console.log(a);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 **Câu 14:**
 
@@ -427,7 +427,7 @@ func(a);
 console.log(a);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 **Câu 15:**
 
