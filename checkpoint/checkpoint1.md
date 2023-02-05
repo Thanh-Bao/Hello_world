@@ -8,6 +8,7 @@
  5. [codecombat.com](https://codecombat.com/play/dungeon)  (learn OOP if you want).
  6. [Programming Hero: Coding Fun](https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp) (Learn [ReactJS](https://reactjs.org/) if you want).
 
+P/S: *You can use bluestack or VPN if the app doesn't support in your country.*
 
 # Phần 1: Thao tác mảng (Array Built-in Methods)
 
