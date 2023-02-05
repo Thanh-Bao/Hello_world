@@ -1,4 +1,4 @@
-# Best app for self learning
+# Apps for self learning
 
  1. [exercism.org](https://exercism.org/tracks/javascript/concepts)
  2. [Learn Javascript](https://play.google.com/store/apps/details?id=js.javascript.web.coding.programming.learn.development)
