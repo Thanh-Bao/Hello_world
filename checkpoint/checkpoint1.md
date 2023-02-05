@@ -443,7 +443,7 @@ func(a);
 console.log(a);
 ```
 
-Không chạy thử! Đoạn code trên in ra gì? Tại sao?
+Đoạn code trên in ra gì? Tại sao?
 
 ---
 
