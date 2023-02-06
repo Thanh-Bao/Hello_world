@@ -97,7 +97,7 @@ Công thức tính BMI = weight / ( height \*\* 2 )
     }
 ]
 
-// Cách viết 1: Viết trực tiếp callback vào param của map (tên hàm BMIcaculate không cần thiết)
+// Cách viết 1: Viết trực tiếp callback vào param của map (tên hàm BMIcaculate có thể không cần thiết)
 const cach1 = data.map(function BMIcaculate(stu) {
     return ({
         studentID: stu.studentID,
@@ -109,21 +109,21 @@ console.log("viết kiểu 1", cach1);
 
 
 // Cách viết 2: Khai báo callback bên ngoài sau đó truyền vào param
-// cần khai báo BMIcaculate để truyền vào 
+// cần khai báo BMIcaculate để truyền vào => "best practice"
 function BMIcaculate(stu) {
     return ({
         studentID: stu.studentID,
         BMI: stu.weight / ((stu.height / 100) ** 2)
     })
 };
-const cach2 = data.map(BMIcaculate);
+const cach2 = data.map(BMIcaculate); //Chỉ cần nhìn vào cách đặt tên hàm, không cần đọc nội dung bên trong hàm vẫn có thể hiểu mục đích của dòng code này.
 console.log("viết kiểu 2", cach2);
  
  
  
 
 // Cách viết 3: anonymous function (không cần đặt tên cho hàm)
-// Thường dùng
+// Thường dùng đối với hàm có logic đơn giản, ngắn
 const cach3 = data.map(function (stu) {
     return ({
         studentID: stu.studentID,
@@ -136,7 +136,7 @@ console.log("viết kiểu 3", cach3);
  
 
 // Cách viết 4: anonymous function với cú pháp arrow function
-// Thường dùng
+// Sau năm 2015 thường dùng syntax arrow function
 const cach4 = data.map(stu => ({
     studentID: stu.studentID,
     BMI: Math.floor(stu.weight / ((stu.height / 100) ** 2))
