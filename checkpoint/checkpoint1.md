@@ -122,7 +122,7 @@ console.log("viết kiểu 2", cach2);
  
  
 
-// Cách viết 3: anonymous function
+// Cách viết 3: anonymous function (không cần đặt tên cho hàm)
 // Thường dùng
 const cach3 = data.map(function (stu) {
     return ({
