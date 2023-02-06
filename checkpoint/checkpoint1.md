@@ -117,8 +117,10 @@ function BMIcaculate(stu) {
     })
 };
 const cach2 = data.map(BMIcaculate);
-
 console.log("viết kiểu 2", cach2);
+ 
+ 
+ 
 
 // Cách viết 3: anonymous function
 // Thường dùng
@@ -129,6 +131,9 @@ const cach3 = data.map(function (stu) {
     })
 });
 console.log("viết kiểu 3", cach3);
+ 
+ 
+ 
 
 // Cách viết 4: anonymous function với cú pháp arrow function
 // Thường dùng
@@ -138,10 +143,6 @@ const cach4 = data.map(stu => ({
   })
 );
 console.log("viết kiểu 4", cach4);
-
-
-
-
 
 
   ```
