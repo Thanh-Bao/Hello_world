@@ -57,16 +57,16 @@ _Client (frontend) expect:_
 ```json
 [
   {
-    "studentID": 111,
-    "BMI": 29
+    studentID: 111,
+    BMI: 29
   },
   {
-    "studentID": 122,
-    "BMI": 28
+    studentID: 122,
+    BMI: 28
   },
   {
-    "studentID": 133,
-    "BMI": 36
+    studentID: 133,
+    BMI: 36
   }
 ]
 ```
@@ -82,14 +82,14 @@ _Client (frontend) expect:_ Mảng chỉ chứa student cao hơn 1,65m.
 ```json
 [
   {
-    "studentID": 111,
-    "weight": 85,
-    "height": 170
+    studentID: 111,
+    weight: 85,
+    height: 170
   },
   {
-    "studentID": 133,
-    "weight": 120,
-    "height": 182
+    studentID: 133,
+    weight: 120,
+    height: 182
   }
 ]
 ```
@@ -101,9 +101,9 @@ _Client (frontend) expect:_
 
 ```json
 {
-  "studentID": 122,
-  "weight": 65,
-  "height": 150
+  studentID: 122,
+  weight: 65,
+  height: 150
 }
 ```
 
@@ -115,19 +115,19 @@ _Client (frontend) expect:_
 ```json
 [
   {
-    "studentID": 122,
-    "weight": 65,
-    "height": 150
+    studentID: 122,
+    weight: 65,
+    height": 150
   },
   {
-    "studentID": 111,
-    "weight": 85,
-    "height": 170
+    studentID: 111,
+    weight: 85,
+    height: 170
   },
   {
-    "studentID": 133,
-    "weight": 120,
-    "height": 182
+    studentID: 133,
+    weight: 120,
+    height: 182
   }
 ]
 ```
@@ -150,22 +150,22 @@ _Client (frontend) expect:_
 
 ```json
 {
-  "id": 0,
-  "name": "Iphone 14 pro max",
-  "brand": "Apple",
-  "fake_price": 99999999,
-  "real_price": 88888888,
-  "description": "Iphone USA made in china",
-  "cpu": "M2",
-  "gpu": "M2",
-  "ram": 128,
-  "memory": 256,
-  "screen_size": "10",
-  "battery": 70000,
-  "front_camera": 20,
-  "rear_camera": 30,
-  "release_year": 2022,
-  "sim": 4
+  id: 0,
+  name: "Iphone 14 pro max",
+  brand: "Apple",
+  fake_price: 99999999,
+  real_price: 88888888,
+  description: "Iphone USA made in china",
+  cpu: "M2",
+  gpu: "M2",
+  ram: 128,
+  memory: 256,
+  screen_size: "10",
+  battery: 70000,
+  front_camera: 20,
+  rear_camera: 30,
+  release_year: 2022,
+  sim: 4
 }
 ```
 
@@ -173,23 +173,23 @@ _Client (frontend) expect:_
 
 ```json
 {
-  "id": 0,
-  "name": "Iphone 14 pro max",
-  "brand": "Apple",
-  "fake_price": 99999999,
-  "real_price": 88888888,
-  "description": "Iphone USA made in china",
-  "cpu": "M2",
-  "gpu": "M2",
-  "ram": 128,
-  "memory": 256,
-  "screen_size": "10",
-  "battery": 70000,
-  "front_camera": 20,
-  "rear_camera": 30,
-  "release_year": 2022,
-  "sim": 4,
-  "color": "yellow" //  <===Thêm thuộc tính màu sắc
+  id: 0,
+  name: "Iphone 14 pro max",
+  brand: "Apple",
+  fake_price: 99999999,
+  real_price: 88888888,
+  description: "Iphone USA made in china",
+  cpu: "M2",
+  gpu: "M2",
+  ram: 128,
+  memory: 256,
+  screen_size: "10",
+  battery: 70000,
+  front_camera: 20,
+  rear_camera: 30,
+  release_year: 2022,
+  sim: 4,
+  color: "yellow" //  <===Thêm thuộc tính màu sắc
 }
 ```
 
@@ -269,22 +269,22 @@ _Client (frontend) expect:_
 ```json
 [
   {
-    "productID": 111,
-    "name": "jacket",
-    "brand": "puma",
-    "OriginOfGoods": "Germany"
+    productID: 111,
+    name: "jacket",
+    brand: "puma",
+    OriginOfGoods: "Germany"
   },
   {
-    "productID": 156,
-    "name": "T-shirt",
-    "brand": "adidas",
-    "OriginOfGoods": "Vietnam"
+    productID: 156,
+    name: "T-shirt",
+    brand: "adidas",
+    OriginOfGoods: "Vietnam"
   },
   {
-    "productID": 198,
-    "name": "yellow suit",
-    "brand": "ZARA",
-    "OriginOfGoods": "Japan"
+    productID: 198,
+    name: "yellow suit",
+    brand: "ZARA",
+    OriginOfGoods: "Japan"
   }
 ]
 ```
