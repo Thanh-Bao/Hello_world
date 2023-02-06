@@ -150,22 +150,22 @@ _Client (frontend) expect:_
 
 ```json
 {
-  id: 0,
-  name: "Iphone 14 pro max",
-  brand: "Apple",
-  fake_price: 99999999,
-  real_price: 88888888,
-  description: "Iphone USA made in china",
-  cpu: "M2",
-  gpu: "M2",
-  ram: 128,
-  memory: 256,
-  screen_size: "10",
-  battery: 70000,
-  front_camera: 20,
-  rear_camera: 30,
-  release_year: 2022,
-  sim: 4
+  "id": 0,
+  "name": "Iphone 14 pro max",
+  "brand": "Apple",
+  "fake_price": 99999999,
+  "real_price": 88888888,
+ "description": "Iphone USA made in china",
+  "cpu": "M2",
+  "gpu": "M2",
+  "ram": 128,
+  "memory": 256,
+  "screen_size": "10",
+  "battery": 70000,
+  "front_camera": 20,
+  "rear_camera": 30,
+  "release_year": 2022,
+  "sim": 4
 }
 ```
 
