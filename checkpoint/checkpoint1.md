@@ -54,7 +54,7 @@ P/S: *You can use bluestack or VPN if the app doesn't support in your country.*
 
 _Client (frontend) expect:_
 
-```json
+```javasctipt
 [
   {
     studentID: 111,
@@ -79,7 +79,7 @@ Công thức tính BMI = weight / ( height \*\* 2 )
 
 _Client (frontend) expect:_ Mảng chỉ chứa student cao hơn 1,65m.
 
-```json
+```javasctipt
 [
   {
     studentID: 111,
@@ -112,7 +112,7 @@ Sắp xếp list theo thứ tự cân nặng tăng dần
 
 _Client (frontend) expect:_
 
-```json
+```javasctipt
 [
   {
     studentID: 122,
@@ -171,7 +171,7 @@ _Client (frontend) expect:_
 
 _Client (frontend) expect:_
 
-```json
+```javasctipt
 {
   id: 0,
   name: "Iphone 14 pro max",
@@ -266,7 +266,7 @@ và
 
 _Client (frontend) expect:_
 
-```json
+```javasctipt
 [
   {
     productID: 111,
