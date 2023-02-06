@@ -75,6 +75,78 @@ Công thức tính BMI = weight / ( height \*\* 2 )
 
 ---
 
+<details>
+  <summary>Đáp án</summary>
+
+  ```javascript
+  const data = [
+    {
+        studentID: 111,
+        weight: 85,
+        height: 170
+    },
+    {
+        studentID: 122,
+        weight: 65,
+        height: 150
+    },
+    {
+        studentID: 133,
+        weight: 120,
+        height: 182
+    }
+]
+
+// Cách viết 1: Viết trực tiếp callback vào param của map (tên hàm BMIcaculate không cần thiết)
+const cach1 = data.map(function BMIcaculate(stu) {
+    return ({
+        studentID: stu.studentID,
+        BMI: stu.weight / ((stu.height / 100) ** 2)
+    })
+});
+console.log("viết kiểu 1", cach1);
+
+
+
+// Cách viết 2: Khai báo callback bên ngoài sau đó truyền vào param
+// cần khai báo BMIcaculate để truyền vào 
+function BMIcaculate(stu) {
+    return ({
+        studentID: stu.studentID,
+        BMI: stu.weight / ((stu.height / 100) ** 2)
+    })
+};
+const cach2 = data.map(BMIcaculate);
+
+console.log("viết kiểu 2", cach2);
+
+// Cách viết 3: anonymous function
+// Thường dùng
+const cach3 = data.map(function (stu) {
+    return ({
+        studentID: stu.studentID,
+        BMI: Math.floor(stu.weight / ((stu.height / 100) ** 2)) // làm tròn số
+    })
+});
+console.log("viết kiểu 3", cach3);
+
+// Cách viết 4: anonymous function với cú pháp arrow function
+// Thường dùng
+const cach4 = data.map(stu => ({
+    studentID: stu.studentID,
+    BMI: Math.floor(stu.weight / ((stu.height / 100) ** 2))
+  })
+);
+console.log("viết kiểu 4", cach4);
+
+
+
+
+
+
+  ```
+</details>
+
 **Câu 2:**
 
 _Client (frontend) expect:_ Mảng chỉ chứa student cao hơn 1,65m.
