@@ -116,7 +116,7 @@ function BMIcaculate(stu) {
         BMI: stu.weight / ((stu.height / 100) ** 2)
     })
 };
-const cach2 = data.map(BMIcaculate); //Chỉ cần nhìn vào cách đặt tên hàm, không cần đọc nội dung bên trong hàm vẫn có thể hiểu mục đích của dòng code này.
+const cach2 = data.map(BMIcaculate); //Chỉ cần nhìn vào cách đặt tên hàm, không cần đọc nội dung bên trong hàm (body của hàm) vẫn có thể hiểu mục đích của dòng code này.
 console.log("viết kiểu 2", cach2);
  
  
@@ -142,6 +142,9 @@ const cach4 = data.map(stu => ({
     BMI: Math.floor(stu.weight / ((stu.height / 100) ** 2))
   })
 );
+ // Chỉ có 1 parameter nên không cần dấu đóng mở ngoặc trước và sau stu
+ // trong trường hợp này dấu => có ý nghĩa là return
+ // Do không có thân hàm, return trực tiếp giá trị nên cặp ngoặc body function {} bị lược bỏ.
 console.log("viết kiểu 4", cach4);
 
 
