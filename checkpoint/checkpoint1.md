@@ -99,7 +99,7 @@ Tìm student có mã số sinh viên là: 122
 
 _Client (frontend) expect:_
 
-```json
+```javascript
 {
   studentID: 122,
   weight: 65,
