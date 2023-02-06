@@ -79,7 +79,7 @@ Công thức tính BMI = weight / ( height \*\* 2 )
   <summary>Đáp án</summary>
 
   ```javascript
-  const data = [
+  const data = [     // Khởi tạo nơi chứa data (JSON) do server response
     {
         studentID: 111,
         weight: 85,
