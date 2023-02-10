@@ -434,7 +434,7 @@ _Client (frontend) expect:_
 
 ---
 
-**Câu 11:**
+**Câu 11:** Thực tế không ai viết như này, sẽ có cách riêng để clone 2 mảng)
 
 ```javascript
 let arr1 = [1, 2, 3];
@@ -446,7 +446,7 @@ console.log(arr1);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 12**:
+**Câu 12**: (Thực tế không ai viết như này, sẽ có cách riêng để clone 2 mảng)
 
 ```javascript
 let arr1 = [1, 2, 3];
@@ -459,7 +459,7 @@ console.log(arr1);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 13.1**:
+**Câu 13.1**: (Thực tế không ai viết như này)
 
 ```javascript
 let a = 1;
@@ -474,7 +474,7 @@ console.log(a);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 13.2**:
+**Câu 13.2**: (Trường hợp này có trong thực tế)
 
 ```javascript
 let a = 1;
@@ -489,7 +489,7 @@ console.log(a);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 14:**
+**Câu 14:** (trường hợp này có trong thực tế)
 
 ```javascript
 const a = [1, 2, 3];
@@ -505,7 +505,7 @@ console.log(a);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 15:**
+**Câu 15:** (Thực tế không ai viết như này)
 
 ```javascript
 let a = [1, 2, 3];
