@@ -474,7 +474,7 @@ console.log(a);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 13.2**: (Trường hợp này có trong thực tế)
+**Câu 13.2**: (Trường hợp này có trong thực tế nhưng hạn chế viết như này)
 
 ```javascript
 let a = 1;
@@ -489,7 +489,7 @@ console.log(a);
 
 Đoạn code trên in ra gì? Tại sao?
 
-**Câu 14:** (trường hợp này có trong thực tế)
+**Câu 14:** (Trường hợp này có trong thực tế nhưng hạn chế viết như này)
 
 ```javascript
 const a = [1, 2, 3];
@@ -523,4 +523,12 @@ console.log(a);
 
 ---
 
-Conclusion: Trong thực tế truyền tham chiếu dễ gây side-effect nên JS hạn chế truyền kiểu này. Thư viện immerJS (Tiếng Đức nghĩa là: Luôn luôn) hoặc ImmuatableJS của facebook giúp khắc phục vấn đề này.
+##Conclusion: 
+
+Trong thực tế truyền tham chiếu dễ gây side-effect nên JS hạn chế truyền kiểu này. Thư viện immerJS (Tiếng Đức nghĩa là: Luôn luôn) hoặc ImmuatableJS của facebook giúp khắc phục vấn đề này.
+
+Có 2 kiểu function:
+- Pure function 
+- Side Effect function (còn gọi là impure function)
+
+Nếu function không có yếu tố bên ngoài (Gọi API OS, web API, DOM, user input....) thì ưu tiên viết pure function.
