@@ -523,7 +523,7 @@ console.log(a);
 
 ---
 
-##Conclusion: 
+## Conclusion: 
 
 Trong thực tế truyền tham chiếu dễ gây side-effect nên JS hạn chế truyền kiểu này. Thư viện immerJS (Tiếng Đức nghĩa là: Luôn luôn) hoặc ImmuatableJS của facebook giúp khắc phục vấn đề này.
 
