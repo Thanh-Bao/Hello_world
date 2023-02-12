@@ -118,7 +118,7 @@ Dựa vào tài liệu của cty tại https://api.ghn.vn/home/docs/detail?id=76
 vận chuyển kiện hàng nặng 2kg, length = 50cm, width=40cm, height=30cm từ Phường Phạm Ngũ Lão, quận 1,
 HCM đến phường Thanh Trì
 
-# Phần 4: Xử lý data realtime với giao thức web socket (Optional)
+# Phần 4: Xử lý data realtime với giao thức websocket (Optional)
 
 **Câu 8:**
 
