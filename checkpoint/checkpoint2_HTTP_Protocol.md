@@ -50,25 +50,18 @@ Lấy danh sách các quận ở Hà Nôi và sắp xếp mảng tăng dần the
 
 **Câu 3:**
 
-Cho API Endpoint: https://thongtindoanhnghiep.co/api/city/4/district
-(Số 4 là mã số của TP.HCM lấy từ câu 1)
-
-Lấy danh sách các quận ở Hà Nôi và sắp xếp mảng tăng dần theo tên quận.
-
-**Câu 4:**
-
 Dựa vào hướng dẫn của thongtindoanhnghiep.co lấy danh sách các phường ở quận Hoàng Mai và sắp xếp mảng
 tăng dần theo thứ tự tên phường.
 
 VD: danh sách phường ở Ba Đình https://thongtindoanhnghiep.co/api/district/73/ward
 
-**Câu 5:**
+**Câu 4:**
 
 Cho Endpoint https://api.vietqr.io/v2/banks
 
 Tìm swift code (Business Identifier Codes) và logo của ngân hàng Standard Chartered
 
-**Câu 6:**
+**Câu 5:**
 
 Requirement: Tìm thông tin công ty khi biết mã số thuế!
 
@@ -97,7 +90,7 @@ _Client (frontend) expect:_
 
 # Phần 2: HTTP POST (chữ C trong CRUD - Create/Read/Update/Delete)
 
-**Câu 7:**
+**Câu 6:**
 
 Cho discord endpoint (Web hook): https://discord.com/api/webhooks/1074044242013458446/xVYIlONpDg6r1ndqb5eHTKA2v_cVs48mefh4IByQy6MAUCo4vIL14gRUSCvamxJOWSyv
 
@@ -115,7 +108,7 @@ HTTP POST
 
 # Phần 3: Vẫn là HTTP nhưng với những endpoint được bảo mật với token
 
-**Câu 8:**
+**Câu 7:**
 
 Tính phí giao hàng tại Việt Nam khi mua hàng online bằng API của cty chuyển phát nhanh (GHN)
 
@@ -127,7 +120,7 @@ HCM đến phường Thanh Trì
 
 # Phần 4: Xử lý data realtime với giao thức web socket (Optional)
 
-**Câu 9:**
+**Câu 8:**
 
 Giá bitcoin sàn binance **wss://stream.binance.com:9443/ws/btcusdt@trade**
 
