@@ -115,7 +115,8 @@ HTTP POST
 
 # Phần 3: Vẫn là HTTP nhưng với những endpoint được bảo mật với token
 
-**Câu 7:**
+**Câu 8:**
+
 Tính phí giao hàng tại Việt Nam khi mua hàng online bằng API của cty chuyển phát nhanh (GHN)
 
 Tự tạo tài khoản để lấy token hoặc sử dụng token có sẵn `0d1b456f-8b24-11eb-8be2-c21e19fc6803`
@@ -126,8 +127,8 @@ HCM đến phường Thanh Trì
 
 # Phần 4: Xử lý data realtime với giao thức web socket (Optional)
 
-**Câu 8:**
+**Câu 9:**
 
-Giá bitcoin sàn binance wss://stream.binance.com:9443/ws/btcusdt@trade
+Giá bitcoin sàn binance [wss://stream.binance.com:9443/ws/btcusdt@trade](wss://stream.binance.com:9443/ws/btcusdt@trade)
 
 Tạo kết nối và console.log giá bitcoin.
