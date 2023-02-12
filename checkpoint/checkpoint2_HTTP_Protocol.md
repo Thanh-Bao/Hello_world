@@ -27,10 +27,10 @@ const getStocks = async () => {
     `https://finfo-api.vndirect.com.vn/v4/stock_prices?sort=date%3Adesc&q=floor%3AHOSE%2CHNX~type%3ASTOCK&fields=code%2Cdate%2Copen%2Chigh%2Clow%2Cclose%2CnmVolume%2Cchange%2CpctChange&size=100&page=1`
   );
   const stocks = await HOSEresponse.json();
-  return stocks;
+  console.log(stocks);
 };
 
-const myData = getStocks();
+getStocks();
 ```
 
 # Phần 1: HTTP GET (chữ R trong combo CRUD - Create/Read/Update/Delete)
