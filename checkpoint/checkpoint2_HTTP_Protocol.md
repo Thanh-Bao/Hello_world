@@ -129,6 +129,6 @@ HCM đến phường Thanh Trì
 
 **Câu 9:**
 
-Giá bitcoin sàn binance (wss://stream.binance.com:9443/ws/btcusdt@trade)[wss://stream.binance.com:9443/ws/btcusdt@trade]
+Giá bitcoin sàn binance **wss://stream.binance.com:9443/ws/btcusdt@trade**
 
 Tạo kết nối và console.log giá bitcoin.
