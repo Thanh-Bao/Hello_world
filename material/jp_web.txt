@@ -1,0 +1,4 @@
+- yahoo.co.jp (2 tỉ lượt truy cập/tháng) - reactJS
+- rakuten.co.jp (500 triệu lượt truy cập/tháng) - reactJS
+- fc2.com (300 triệu lượt truy cập/tháng) - reactJS
+- livedoor.com (100 triệu lượt truy cập/tháng) - reactJS
