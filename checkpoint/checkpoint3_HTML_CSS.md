@@ -13,7 +13,7 @@
 
 |     |                                              |                                                              |
 | --- | -------------------------------------------- | ------------------------------------------------------------ |
-| 1   | [htmlreference.io](https://htmlreference.io) | kiểm tra một thẻ là _inline_ hay _block_                     |
+| 1   | [htmlreference.io](https://htmlreference.io) | kiểm tra một thẻ là `inline` hay `block`                     |
 | 2   | [caniuse.com](https://caniuse.com/)          | kiểm tra một thuộc tính css có tương thích với browser không |
 
 ### Phần 2: CSS
@@ -27,7 +27,7 @@
 
 #### 2.2. layout with flexbox (cũng là layout mặc định react native - mobile app)
 
-Layout trên mặt phẳng Oxy.
+Layout trên mặt phẳng Oxy. Chỉ có tác dụng với thẻ `block`
 Game luyện phản xạ CSS:
 
 - [https://flexboxfroggy.com](https://flexboxfroggy.com/)
@@ -37,7 +37,7 @@ Game luyện phản xạ CSS:
 - [https://codingfantasy.com/games/flexboxadventure](https://codingfantasy.com/games/flexboxadventure)
 - [https://knightsoftheflexboxtable.com](https://knightsoftheflexboxtable.com/) (game luyện tập flexbox với thư viện [tailwind css](https://tailwindcss.com/)
 
-### 2.3. Thuộc tính position (layout theo trục Oz)
+#### 2.3. Thuộc tính position (layout theo trục Oz)
 
 - https://www.tutorialbrain.com/css_tutorial/css_position/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/position
