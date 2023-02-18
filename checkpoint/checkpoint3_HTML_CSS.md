@@ -27,7 +27,7 @@
 
 #### 2.2. layout with flexbox (cũng là layout mặc định react native - mobile app)
 
-Layout trên mặt phẳng Oxy. Chỉ có tác dụng với thẻ `block`
+Layout trên mặt phẳng Oxy. Chỉ có tác dụng với thẻ `block`. 
 Game luyện phản xạ CSS:
 
 - [https://flexboxfroggy.com](https://flexboxfroggy.com/)
