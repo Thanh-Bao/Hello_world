@@ -9,7 +9,12 @@
 | 5   | `<button>`                    |          | inline  |
 | 5   | `<input>`, `<select>`, `<ul>` |          | inline  |
 
-Dùng web https://htmlreference.io để kiểm tra một thẻ là _inline_ hay _block_.
+---
+
+|     |                                              |                                                              |
+| --- | -------------------------------------------- | ------------------------------------------------------------ |
+| 1   | [htmlreference.io](https://htmlreference.io) | kiểm tra một thẻ là _inline_ hay _block_                     |
+| 1   | [caniuse.com](https://caniuse.com/)          | kiểm tra một thuộc tính css có tương thích với browser không |
 
 ### Phần 2: CSS
 
