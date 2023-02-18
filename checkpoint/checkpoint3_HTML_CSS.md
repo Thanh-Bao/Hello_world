@@ -11,6 +11,7 @@
 
 ---
 
+|     |                                              |                                                              |
 | --- | -------------------------------------------- | ------------------------------------------------------------ |
 | 1   | [htmlreference.io](https://htmlreference.io) | kiểm tra một thẻ là _inline_ hay _block_                     |
 | 2   | [caniuse.com](https://caniuse.com/)          | kiểm tra một thuộc tính css có tương thích với browser không |
