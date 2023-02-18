@@ -59,5 +59,5 @@ Clone một trong những trang web sau
 | --- | -------------------------------------- | ------------- | ------- |
 | 1   | [yahoo.co.jp](https://yahoo.co.jp)     | 2B            | reactJS |
 | 2   | [rakuten.co.jp](https://rakuten.co.jp) | 500M          | reactJS |
-| 3   | [fc2.com](https://fc2.com)             | 300M          | reactJS |
-| 4   | [livedoor.com](https://livedoor.com)   | 100M          | reactJS |
+| 3   | [fc2.com](https://fc2.com)             | 300M          | Jquery |
+| 4   | [livedoor.com](https://livedoor.com)   | 100M          |  Jquery |
