@@ -4,6 +4,7 @@
 > - Các method http? (POST-PUT-GET-DELETE)
 > - Thành phần của một request http?
 > - Sử dụng một ngôn ngữ bất kỳ để tạo một request http đến một server bất kỳ.
+> - Video tóm tắt: https://m.youtube.com/watch?v=2JYT5f2isg4
 
 ---
 
