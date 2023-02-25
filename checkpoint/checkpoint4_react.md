@@ -2,7 +2,7 @@
 
 |                                                                                                                                                      |                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| [bestofjs.org](https://bestofjs.org/)                                                                                                                | library trend                    |
+| [bestofjs.org](https://bestofjs.org/projects)                                                                                                        | library trend                    |
 | [bestofjs.org/timeline](https://bestofjs.org/timeline)                                                                                               | library timeline                 |
 | [stateofjs.com](https://2022.stateofjs.com/en-US/)                                                                                                   | JS servey                        |
 | [github.com/anvaka](https://gist.github.com/anvaka/8e8fa57c7ee1350e3491)                                                                             | Top npm download                 |
