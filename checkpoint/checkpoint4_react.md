@@ -1,4 +1,4 @@
-### Overview
+### Phần 1: Overview
 
 |                                                                                                                                                      |                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -16,7 +16,7 @@
 
 ---
 
-### Chuẩn bị trước khi học react
+### Phần 2: Chuẩn bị trước khi học react
 
 - Cần phân biệt giao diện **SPA** (Single page application) và **MPA** (multi page application). Phân biệt **CSR** (Client side render) và **SSR** (server side render).
 - SEO (search engine optimization).
@@ -25,7 +25,11 @@
 - Phân biệt react với một số framework dựa trên react: [nextJS](https://nextjs.org), [qwik](https://qwik.builder.io/), [solidJS](https://www.solidjs.com/), [Preact](https://preactjs.com/), [fresh](https://fresh.deno.dev/), ...
 - Phân biệt router phía client và router phía server.
 
-### React
+### Phần 3: React
+
+- Phân biệt được state và props
+- Khi nào sử dụng state, khi nào sử dụng props
+- Ôn lại phần ES6 module (import & export) và destructuring
 
 | docs                                                                         | description                   |     |
 | ---------------------------------------------------------------------------- | ----------------------------- | --- |
@@ -34,7 +38,7 @@
 | [react + electron](https://www.electronjs.org/)                              | Desktop app (windows + MacOS) |
 | [react + babylonJS](https://www.babylonjs.com/)                              | mobile game (unpopular)       |
 
-### React UI kit
+### Phần 4: React UI kit
 
 |                                                                |                     |
 | -------------------------------------------------------------- | ------------------- |
@@ -43,6 +47,53 @@
 | [ant](https://ant.design/)                                     | by alibaba          |
 | [fluentUI](https://react.fluentui.dev/)                        | design by Microsoft |
 
-### Thực hành
+### Phần 5: validation
 
-Chuyển UI html,CSS ở checkpoint 3 thành project reactJS.
+Tất cả dữ liệu lấy từ user để gửi đến server đều phải được validation trước khi lưu vào database.
+Bắt buộc validation ở 2 vị trí:
+
+- Phía server tại controller (nơi tiếp nhận body của http POST, PUT, ...) phải validate data để **bảo vệ server**, và **đảm bảo tính nhất quán** khi lưu vào database.
+- Phía frontend: validate để hạn chế user nhập sai format.
+  Dữ liệu do server response, frontend không cần validate. Validation khác với verify. Các trường hợp validation thường gặp:
+  check format số điện thoại, ô nhập số không được nhập text, check không quá 255 ký tự, check format ngày tháng .... hoặc username đã có người đăng ký, không được đặt lại password đã sử dụng trước đó, thẻ VISA không hợp lệ, .... mọi field input đều phải check `null`, empty text, min value, max value.
+
+|         | implement                                                                                     | use case                                                                                                                                                                                                                                              |
+| ------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Level 1 | sử dụng if-else, switch-case, ...                                                             | form đơn giản, ít field                                                                                                                                                                                                                               |
+| Level 2 | sử dụng Regex (regex không phụ thuộc ngôn ngữ lập trình)                                      | field có điều kiện phức tạp VD: mật khẩu không được quá 255 ký tự, tối thiểu 8 ký tự, phải bao gồm ít nhất một chữ in hoa, chữ in thường, số và ký tự đặc biệt. Không được chưa các ký tự liên tiếp như 123, ABCD. password không được chứa username. |
+| level 3 | sử dụng [yup](https://www.npmjs.com/package/yup)                                              | code ngắn, đồng nhất khi có nhiều form, nhiều điều kiện.                                                                                                                                                                                              |
+| level 4 | sử dụng 1 thư viện riêng biệt chuyên xử lý form kết hợp với một thư viện chuyên validate data |
+
+### Phần 6: Thực hành
+
+- Chuyển UI html,CSS ở checkpoint 3 thành project reactJS.
+- Config project reactJS đó để build app desktop.
+- Tái sử dụng code logic của reactJS để làm app di động.
+
+---
+
+### Best practice
+
+1. Xử lý form:
+   1.1. Chọn loại input hợp lý khi cần lấy data từ user. VD:
+
+- Chọn địa chỉ thì phải selection dropdown, mỗi field phải có ô search, tên thành phố phải sắp xếp theo bảng chữ cái.
+- Giới tính phải dùng `radio button` (tick box hình tròn).
+- Nên kết hợp icon: Chọn quốc gia phải có icon quốc kỳ phía trước, những button nhỏ không đủ width để hiển thị `label`
+  phải dùng icon thay thế.
+- Khi user click button submit phải css mờ button này và hiển icon loading, đồng thời disable button này để tránh user click lần thứ 2 trong khi request lần 1 chưa xử lý xong (disable button, không phải hiden)
+- field không cho phép nhập phải disable (bị mờ)
+- Mỗi field phải có ít nhất một trong 3 thẻ đi kèm: icon trước field, label, placeholder.
+- Cần phải có example data với những field dễ gây confuse. Example: Nguyen Van An cho ô họ tên, SDT, ....
+- User có thể ấn phím `tab` để con trỏ chuột tự di chuyển giữa các field.
+
+2. validation
+
+- Những loại data cần kết nối internet để validate: Số thẻ credit, ID, username, ... cần hiển thị icon tích xanh, hoặc dấu x đỏ sau mỗi field. Dữ liệu thông thường: Firstname, lastname, ... không cần icon.
+- Nếu user nhập sai phải hiển thị text màu đỏ bên dưới field thông báo lý do lỗi và hướng dẫn sửa lại đúng.
+
+3. Khi xử lý http luôn phải xử lý UI với 3 trạng thái:
+
+- Connecting.../Processing... : hiển thị animation loading.
+- successful
+- error: phải hiển thị thông báo lỗi, khi lỗi phải giữ nguyên data mà user đã nhập trên màn hình. **Trừ khi user đóng tab hoặc user chủ động ấn nút clear thì không được tự xóa data user nhập trên frontend**.

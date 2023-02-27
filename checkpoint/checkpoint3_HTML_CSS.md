@@ -51,7 +51,7 @@ Game luyện phản xạ CSS:
 | 1   | tailwind  | tailwindcss.com  | VueJS, NAPI, ... | https://tailwindcss.com/docs/installation/play-cdn                        |
 | 2   | bootstrap | getbootstrap.com | Twitter          | https://getbootstrap.com/docs/5.3/getting-started/introduction/#cdn-links |
 
-### Phần 4: Thực hành
+### Phần 4z: Thực hành
 
 Clone một trong những trang web sau
 
