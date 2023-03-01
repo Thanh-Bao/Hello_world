@@ -27,7 +27,7 @@
 
 #### 2.2. layout with flexbox (cũng là layout mặc định react native - mobile app)
 
-Layout trên mặt phẳng Oxy. Chỉ có tác dụng với thẻ `block`. 
+Layout trên mặt phẳng Oxy. Chỉ có tác dụng với thẻ `block`.
 Game luyện phản xạ CSS:
 
 - [https://flexboxfroggy.com](https://flexboxfroggy.com/)
@@ -51,7 +51,7 @@ Game luyện phản xạ CSS:
 | 1   | tailwind  | tailwindcss.com  | VueJS, NAPI, ... | https://tailwindcss.com/docs/installation/play-cdn                        |
 | 2   | bootstrap | getbootstrap.com | Twitter          | https://getbootstrap.com/docs/5.3/getting-started/introduction/#cdn-links |
 
-### Phần 4z: Thực hành
+### Phần 4: Thực hành
 
 Clone một trong những trang web sau
 
@@ -59,5 +59,5 @@ Clone một trong những trang web sau
 | --- | -------------------------------------- | ------------- | ------- |
 | 1   | [yahoo.co.jp](https://yahoo.co.jp)     | 2B            | reactJS |
 | 2   | [rakuten.co.jp](https://rakuten.co.jp) | 500M          | reactJS |
-| 3   | [fc2.com](https://fc2.com)             | 300M          | Jquery |
-| 4   | [livedoor.com](https://livedoor.com)   | 100M          |  Jquery |
+| 3   | [fc2.com](https://fc2.com)             | 300M          | Jquery  |
+| 4   | [livedoor.com](https://livedoor.com)   | 100M          | Jquery  |
