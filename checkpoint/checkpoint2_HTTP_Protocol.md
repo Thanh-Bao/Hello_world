@@ -107,6 +107,27 @@ HTTP POST
 }
 ```
 
+<details>
+  <summary>Đáp án</summary>
+  
+  ```javascript
+ async function sendMessage() {
+    await fetch(
+        `https://discord.com/api/webhooks/1081406356084502528/Rhg1nyvAXBt6rq83_K8WNd3TJPC2UafqIDh8r9xujWiTm1wNd172sMNG51Jdx0k1e8Rn`
+        , {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                "content": "Hello everybody 😅 😂 🤣 =))"
+            })
+        });
+};
+sendMessage();
+  ```
+</details>
+
 # Phần 3: Vẫn là HTTP nhưng với những endpoint được bảo mật với token
 
 **Câu 7:**
