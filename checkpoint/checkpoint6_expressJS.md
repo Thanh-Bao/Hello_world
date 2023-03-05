@@ -13,7 +13,9 @@
 
 Có nhiều web framework JS dựa trên NodeJS, trong đó ExpressJS là framework được sử dụng nhiều nhất.
 
-
+![image info](https://github.com/Thanh-Bao/Hello_world/blob/50bf66719cb4cf622550e524341d7388f990fa72/material/demo_server_Oak.png)
+![image info](./pictures/image.png)
+![image info](./pictures/image.png)
 
 ## Tổ chức code, chia package, tạo folder
 
@@ -28,4 +30,3 @@ Code backend (Tầng application) thường có 3 phần chính.
 - ExpressJS và database nên cài đặt trên cùng một máy tính.
 - VD Tránh trường hợp database thuê server ở Mỹ, server run expressJS đặt tại Japan.
 - Hạn chế sử dụng các API lấy danh sách quốc gia, list city, list district, ... Mở kết nối đến một máy chủ khác làm tăng độ trễ của web, những data này ít biến động, không nhiều nên có thể tự lưu vào server của mình. Trừ trường hợp API ngân hàng, cty giao hàng, API thời tiết, giá cả thị trường, ... bắt buộc phải sử dụng API third-party.
-
