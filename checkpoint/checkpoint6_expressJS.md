@@ -14,8 +14,8 @@
 Có nhiều web framework JS dựa trên NodeJS, trong đó ExpressJS là framework được sử dụng nhiều nhất.
 
 ![image info](https://github.com/Thanh-Bao/Hello_world/blob/50bf66719cb4cf622550e524341d7388f990fa72/material/demo_server_Oak.png)
-![image info](./pictures/image.png)
-![image info](./pictures/image.png)
+![image info](https://github.com/Thanh-Bao/Hello_world/blob/50bf66719cb4cf622550e524341d7388f990fa72/material/Demo_server_expressJS.png)
+![image info](https://github.com/Thanh-Bao/Hello_world/blob/50bf66719cb4cf622550e524341d7388f990fa72/material/Demo_Server_CSharp.png)
 
 ## Tổ chức code, chia package, tạo folder
 
